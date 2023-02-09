@@ -1,0 +1,125 @@
+
+.center {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .center h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #353a3f;
+  }
+  .center h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #353a3f;
+  }
+  .center h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #353a3f;
+  }
+
+
+.tienda {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 50px 10px 50px;
+  }
+  .tienda a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+  }
+
+  .tienda h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  .tienda h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  
+  
+  .btninfo {
+    font-size: 12px;
+    background-color: #353a3f;
+    border-radius: 7px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  
+  .btninfo:hover,
+  .btninfo:focus,
+  .btninfo.active {
+    color: #353a3f;
+    border: 2px solid #353a3f;
+    outline: none;
+    background: transparent;
+    margin-bottom: 6px;
+  }
+  
+  .container-fluid {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 5px;
+  }
+  .container-fluid h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #353a3f;
+  }
+
+  .card {
+    border-radius: 12px;    
+  }
+
+  .card img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+
+}
+
+.datos a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    width: 700;
+    padding-bottom: 30px;
+}
+
+.redes{
+    padding-top: 10px;
+}
+
+  #whatsapp {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    display: block;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    z-index: 1000;
+  }
