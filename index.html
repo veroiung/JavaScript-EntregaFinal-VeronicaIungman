@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="link rel=" stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
     <title>Tienda inJOGG</title>
 </head>
 
@@ -20,9 +23,14 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html" title="inicio pagina inJOGG">Tienda inJOGG</a><span
+                        class="sr-only">(current)</span>
+                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html" title="inicio pagina inJOGG">Tienda inJOGG</a>
+                    <a class="nav-link" href="carrito.html" title="carrito de compras">
+                        <img src="images/iconos/cart-fill.svg"><span class="numerito" id="numerito">0</span></a>
                 </li>
             </ul>
         </div>
@@ -30,247 +38,36 @@
 
     <main>
 
-        <h1>Tienda inJOGG</h1>
-
         <div class="center">
             <div class="logo">
                 <img class="logo" src="images/inJOGG_logo.svg" title="logo en movimeinto">
+
             </div>
         </div>
+
+        <div class="center">
+            <h1>Tienda inJOGG</h1>
+        </div>
+
+
         <div class="tienda">
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/denim-celeste.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>DENIM CELESTE</strong></h4>
-                            <h5 class="card-title">$ 4700</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/denim-azul.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>DENIM AZUL</strong></h4>
-                            <h5 class="card-title">$ 4700</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/denim-negro.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>DENIM NEGRO</strong></h4>
-                            <h5 class="card-title">$ 4700</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/denim-blanco.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>DENIM BLANCO</strong></h4>
-                            <h5 class="card-title">$ 4700</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4" id="tienda">
 
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/azul-marino.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>AZUL MARINO</strong></h4>
-                            <h5 class="card-title">$ 3900</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/borravino.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>BORRAVINO</strong></h4>
-                            <h5 class="card-title">$ 3900</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/inJOGG_skinny.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>SKINNY</strong></h4>
-                            <h5 class="card-title">$ 3900</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/inJOGG_oliva.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>OLIVA</strong></h4>
-                            <h5 class="card-title">$ 3900</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <!-- se completa con js-->
 
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/mel-medio.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>MEL MEDIO</strong></h4>
-                            <h5 class="card-title">$ 4800</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/mel-claro.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>MEL CLARO</strong></h4>
-                            <h5 class="card-title">$ 4800</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/mel-crudo.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>MEL CRUDO</strong></h4>
-                            <h5 class="card-title">$ 4800</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/negro-viscosa.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>NEGRO VISCOSA</strong></h4>
-                            <h5 class="card-title">$ 5200</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
             </div>
-
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/negro-flame.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>NEGRO FLAMÉ</strong></h4>
-                            <h5 class="card-title">$ 5200</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/inJOGG_petroleo.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>PETRÓLEO</strong></h4>
-                            <h5 class="card-title">$ 3900</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/inJOGG_nevado.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>NEVADO</strong></h4>
-                            <h5 class="card-title">$ 4500</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card">
-                        <img src="images/tienda/inJOGG_topo.jpg" class="card-img-top" alt="evento salto hotrod">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>TOPO</strong></h4>
-                            <h5 class="card-title">$ 4500</h5>
-                            <p class="card-text">Pantálon slim realizado en telas de punto de algodón y lycra.</p>
-                            <p class="card-text"><small class="text-muted">Todos los productos vienen presentados en bolsas de su misma tela.</small></p>
-                            <a href="#"><button type="button" class="btninfo">+
-                                    Agregar al Carrito</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
         </div>
     </main>
 
-     <!-- Redes Footer -->
-     <footer>
+    <!-- Redes Footer -->
+    <footer>
 
         <div class="center">
             <div class="pag">
-                <a href="https://www.facebook.com/injogg" target="_blank"> <img
-                        src="images/btn/square-facebook.svg" alt="logo facebook"></a>
-                <a href="https://www.instagram.com/injogg/" target="_blank"> <img
-                        src="images/btn/square-instagram.svg" alt="logo instagram"
-                        title="nuestro feed de instagram"></a>
+                <a href="https://www.facebook.com/injogg" target="_blank"> <img src="images/btn/square-facebook.svg"
+                        alt="logo facebook"></a>
+                <a href="https://www.instagram.com/injogg/" target="_blank"> <img src="images/btn/square-instagram.svg"
+                        alt="logo instagram" title="nuestro feed de instagram"></a>
             </div>
         </div>
 
@@ -297,7 +94,7 @@
     </footer>
     <!-- Redes Footer FIN -->
 
-   <script src="js/main.js"> </script>
+    <script src="js/main.js"> </script>
 
 </body>
 
