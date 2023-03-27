@@ -1,38 +1,20 @@
+let productos = [];
 
-function Producto(id, nombre, img, precio) {
-    this.id = id;
-    this.nombre = nombre;
-    this.img = img;
-    this.precio = precio;
+fetch("./js/productos.json")
+.then(response => response.json())
+.then(data => {
+    productos = data;
+    cargarProductos(productos);
 
-    this.imprimirProducto = function () {
-        return "Esta es la identificacion" + (this.id) + "Este es el modelo " + (this.nombre) +  "La imagen " + (this.img) + " su precio es "(this.precio);
-    }
 
-}
-let productos = []
-productos.push(new Producto("denimceleste", "Denim Celeste", "./images/tienda/denim-celeste.jpg", 4700))
-productos.push(new Producto("denimazul", "Denim Azul", "./images/tienda/denim-azul.jpg", 4700))
-productos.push(new Producto("denimblanco", "Denim Blanco", "./images/tienda/denim-blanco.jpg", 4700))
-productos.push(new Producto("denimnegro", "Denim Negro", "./images/tienda/denim-negro.jpg", 4700))
-productos.push(new Producto("azulmarino", "Azul Marino", "./images/tienda/azul-marino.jpg", 3900))
-productos.push(new Producto("borravino", "Borravino", "./images/tienda/borravino.jpg", 3900))
-productos.push(new Producto("skinny", "Skinny", "./images/tienda/skinny.jpg", 3900))
-productos.push(new Producto("oliva", "Oliva", "./images/tienda/oliva.jpg", 3900))
-productos.push(new Producto("melmedio", "Mel Medio", "./images/tienda/mel-medio.jpg", 4800))
-productos.push(new Producto("melclaro", "Mel Claro", "./images/tienda/mel-claro.jpg", 4800))
-productos.push(new Producto("melcrudo", "Mel Crudo", "./images/tienda/mel-crudo.jpg", 4800))
-productos.push(new Producto("negroviscosa", "Negro Viscosa", "./images/tienda/negro-viscosa.jpg", 5200))
-productos.push(new Producto("negroflame", "Negro Flame", "./images/tienda/negro-flame.jpg", 5200))
-productos.push(new Producto("petroleo", "Petroleo", "./images/tienda/petroleo.jpg", 3900))
-productos.push(new Producto("nevado", "Nevado", "./images/tienda/nevado.jpg", 4500))
-productos.push(new Producto("topo", "Topo", "./images/tienda/topo.jpg", 4500))
+})
 
-// const tienda = document.querySelector("#tienda"); //
+
+
 const tienda = document.getElementById("tienda");
 let botonesAgregar = document.querySelectorAll(".btn-agregar")
 
-cargarProductos();
+
 
 let numerito = document.getElementById("numerito");
 

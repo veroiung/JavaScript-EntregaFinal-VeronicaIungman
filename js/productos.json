@@ -1,0 +1,101 @@
+
+
+[
+    {
+    "id": "denimceleste",
+    "nombre": "Denim Celeste",
+    "img": "./images/tienda/denim-celeste.jpg",
+    "precio": 4700
+},
+{
+    "id":"denimazul",
+    "nombre": "Denim Azul",
+    "img": "./images/tienda/denim-azul.jpg",
+    "precio": 4700
+},
+{
+    "id":"denimblanco",
+    "nombre": "Denim Blanco",
+    "img": "./images/tienda/denim-blanco.jpg",
+    "precio": 4700
+},
+{
+    "id": "denimnegro",
+    "nombre": "Denim Negro",
+    "img": "./images/tienda/denim-negro.jpg",
+    "precio": 4700
+},
+{
+    "id": "azulmarino",
+    "nombre": "Azul Marino",
+    "img": "./images/tienda/azul-marino.jpg",
+    "precio": 3900
+},
+{
+    "id": "borravino",
+    "nombre": "Borravino",
+    "img": "./images/tienda/borravino.jpg",
+    "precio": 3900
+},
+{
+    "id": "skinny",
+    "nombre": "Skinny",
+    "img": "./images/tienda/skinny.jpg",
+    "precio": 3900
+},
+{
+    "id": "oliva",
+    "nombre": "Oliva",
+    "img": "./images/tienda/oliva.jpg",
+    "precio": 3900
+},
+{  
+    "id":"melmedio",
+    "nombre": "Mel Medio",
+    "img": "./images/tienda/mel-medio.jpg",
+    "precio": 4800
+},
+{
+    "id": "melclaro",
+    "nombre": "Mel Claro",
+    "img": "./images/tienda/mel-claro.jpg",
+    "precio": 4800
+},
+{
+    "id": "melcrudo",
+    "nombre": "Mel Crudo",
+    "img": "./images/tienda/mel-crudo.jpg",
+    "precio": 4800
+},
+{
+    "id": "negroviscosa",
+    "nombre": "Negro Viscosa",
+    "img": "./images/tienda/negro-viscosa.jpg",
+    "precio": 5200
+},
+{
+    "id": "negroflame",
+    "nombre": "Negro Flame",
+    "img": "./images/tienda/negro-flame.jpg",
+    "precio": 5200
+},
+{
+    "id": "petroleo",
+    "nombre": "Petroleo",
+    "img": "./images/tienda/petroleo.jpg",
+    "precio": 3900
+},
+{
+    "id": "nevado",
+    "nombre": "Nevado",
+    "img": "./images/tienda/nevado.jpg",
+    "precio": 4500
+},
+{
+    "id": "topo",
+    "nombre": "Topo",
+    "img": "./images/tienda/topo.jpg",
+    "precio": 4500
+}
+
+]
