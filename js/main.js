@@ -72,19 +72,19 @@ function agregarAlCarrito(e){
         duration: 3000,
         newWindow: true,
         close: false,
-        gravity: "top", // `top` or `bottom`
-        position: "left", // `left`, `center` or `right`
-        stopOnFocus: true, // Prevents dismissing of toast on hover
+        gravity: "top", 
+        position: "left", 
+        stopOnFocus: true, 
         style: {
           background: "black",
           borderRadius: "0.5rem",
           fontSize: "0.9rem",
         },
         offset: {
-            x: 50, // horizontal axis - can be a number or a string indicating unity. eg: '2em'
-            y: 50 // vertical axis - can be a number or a string indicating unity. eg: '2em'
+            x: 50, 
+            y: 50 
           },
-        onClick: function(){} // Callback after click
+        onClick: function(){} 
       }).showToast();
 
     const idBoton = e.currentTarget.id;
@@ -108,20 +108,3 @@ function agregarAlCarrito(e){
         numerito.innerText = nuevoNumerito;
 
 }
-
-
-
-
-
-
-
-/*
-function agregar(identificador) {
-    for (let i=0; i<productos.length; i++) {
-        if(identificador == productos[i].id){
-            console.log(productos[i].nombre, productos[i].precio); 
-            break;
-        }
-    }
-}*/
-

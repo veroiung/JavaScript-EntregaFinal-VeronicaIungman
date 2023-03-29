@@ -120,29 +120,20 @@ function vaciarCarrito(){
 
     Swal.fire({
         title: '¿Estás seguro?',
-        text: "Se borrarán todos los productos.",
         icon: 'question',
+        html: 'Se borraran todos los productos',
         showCancelButton: true,
-        confirmButtonColor: 'black',
-        cancelButtonColor: '#d33',
-        confirmButtonText: 'Sí, borrar!'
+        focusConfirm: false,
+        confirmButtonText: 'Sí',
+        cancelButtonText: 'No',
       }).then((result) => {
         if (result.isConfirmed) {
-
             productosEnCarrito.length = 0;
             localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
             cargarProductosCarrito();
-
-          Swal.fire(
-            'Borrados!',
-            'Los productos han sido borrados.',
-            'success'
-          )
         }
       })
-
-
-}
+ }
 
 function actualizarTotal() {
 

@@ -262,3 +262,12 @@ display: none;
   border-radius: 2px;
   margin-left: 10px;
 }
+
+.swal2-styled.swal2-confirm {
+  border: 0;
+  border-radius: 0.25em;
+  background: initial;
+  background-color: black;
+  color: #fff;
+  font-size: 1em;
+}
