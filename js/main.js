@@ -77,7 +77,8 @@ function agregarAlCarrito(e){
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
           background: "black",
-          borderRadius: 1,
+          borderRadius: "0.5rem",
+          fontSize: "0.9rem",
         },
         offset: {
             x: 50, // horizontal axis - can be a number or a string indicating unity. eg: '2em'
